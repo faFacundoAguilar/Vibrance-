@@ -39,10 +39,6 @@ nav a {
 nav a.active { text-decoration: underline; }
 nav a i { font-size: 20px; }
 
-.swiper {
-  width: 100%;
-  height: 100%;
-}
 
 .swiper-slide {
   text-align: center;
@@ -156,68 +152,6 @@ h2 {
   margin-inline: 10px;
 }
 
-
-.modal {
-  display: none; 
-  position: fixed;
-  z-index: 1; 
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
-  overflow: auto;
-  padding-top: 60px;
-}
-
-.modal-content {
-  background: linear-gradient(135deg, #c57225, #121826); 
-  margin: 5% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 500px;
-  color: #fff;
-  text-align: center;
-  border-radius: 10px;
-  position: relative; 
-}
-
-
-.modal-content h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.modal-content p {
-  font-size: 1rem;
-  margin-bottom: 25px;
-}
-
-
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 30px;
-  color: #fff; 
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.6); 
-  padding: 5px;
-  border-radius: 50%; 
-  transition: background-color 0.3s ease, transform 0.2s ease; 
-}
-
-.close-btn:hover,
-.close-btn:focus {
-  color: #f0f0f0;
-  text-decoration: none;
-}
-
-/* Animación para la Modal */
-.modal-content {
-  animation: modalAnimation 0.5s ease-out;
-}
 
 @keyframes modalAnimation {
   0% {
