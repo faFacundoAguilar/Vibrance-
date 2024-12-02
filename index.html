@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+        integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Futurista</title>
+</head>
+
+<body>
+    <div class="swiper">
+
+        <nav>
+            <a href="#" class="active">Hombres</a>
+            <a href="#">Mujeres</a>
+            <a href="#">Personalizados</a>
+            <a href="#" style="margin-left: auto;"> <i class="ri-search-line"></i> Buscar </a>
+            <a href="#">Mi cuenta</a>
+            <a href="#"> <i class="ri-shopping-bag-fill"></i> </a>
+        </nav>
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background: linear-gradient(to bottom, #FE783D, #121826);">
+                <h2>CONTROL</h2>
+                <div class="info">
+                    <p>ATR 2024</p>
+                    <span>@ La elegancia urbana <br></span>
+                    <p>Style</p>
+                    <span>Audaz, moderno<br></span>
+                </div>
+                <div class="pricing">
+                    <p>Color:</p>
+                    <span>Naranja</span>
+
+                    <h3>$189.00</h3>
+                    <div class="btn-block">
+                        <button class="light-btn open-modal-btn">COMPRAR</button>
+                        <button class="btn open-modal-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+                <img src="image/1.png" alt="1" class="main-img">
+            </div>
+            <div class="swiper-slide" style="background: linear-gradient(to bottom, #00499D, #121826);">
+                <h2>POSESIÓN</h2>
+                <div class="info">
+                    <p>ATR 2024</p>
+                    <span>@ La elegancia urbana <br> Innovación</span>
+                    <p>GLOBODAIN</p>
+                    <span>Sin miedo al exito<br></span>
+                </div>
+                <div class="pricing">
+                    <p>Color:</p>
+                    <span>Azul</span>
+                    <h3>$124.00</h3>
+                    <div class="btn-block">
+                        <button class="light-btn open-modal-btn">COMPRAR</button>
+                        <button class="btn open-modal-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+                <img src="image/2.png" alt="2" class="main-img">
+            </div>
+            <div class="swiper-slide" style="background: linear-gradient(to bottom, #DAB1C8, #511990);">
+                <h2>TENENCIA</h2>
+                <div class="info">
+                    <p>OTOÑO 2023</p>
+                    <span>@ La elegancia urbana <br> se encuentra con la innovación</span>
+                    <p>Oversized</p>
+                    <span>Diseño disruptivo<br></span>
+                </div>
+                <div class="pricing">
+                    <p>Color:</p>
+                    <span>Violeta</span>
+
+                    <h3>$249.00</h3>
+                    <div class="btn-block">
+                        <button class="light-btn open-modal-btn">COMPRAR</button>
+                        <button class="btn open-modal-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+                <img src="image/3.png" alt="3" class="main-img">
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-thumbs">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background: #fff;">
+                    <img src="image/1.png" alt="Miniatura 1">
+                </div>
+                <div class="swiper-slide" style="background: #00499D;">
+                    <img src="image/2.png" alt="Miniatura 2">
+                </div>
+                <div class="swiper-slide" style="background: #fff;">
+                    <img src="image/3.png" alt="Miniatura 3">
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll">Desplaza hacia abajo <i class="ri-arrow-down-s-line"></i></div>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/facundo-aguilar-014265261/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/faFacundoAguilar" class="social-icon"><i class="fab fa-github"></i></a>
+        </div>
+        
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-btn" class="close-btn">X</span>
+            <strong><p>Comunicate con el desarrollador.</p></strong>
+        </div>
+    </div>
+
+    <!-- Botones de prueba -->
+    <div class="btn-block">
+        <button class="light-btn open-modal-btn">COMPRAR</button>
+        <button class="btn open-modal-btn">Añadir al carrito</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            loop: true,
+            spaceBetween: 0,
+            mousewheel: true,
+            speed: 1200,
+            effect: 'coverflow',
+            direction: 'vertical',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 10,
+                modifier: 1,
+                slideShadows: true,
+            },
+            thumbs: {
+                swiper: {
+                    el: '.swiper-thumbs',
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                }
+            },
+            on: {
+                slideChangeTransitionStart: function () {
+                    gsap.from('.swiper-slide-active h2', { x: -200, opacity: 0, duration: 1, delay: 0.5 });
+                    gsap.from('.info p , .info span', { y: 10, opacity: 0, stagger: 0.1, delay: 0.5 });
+                    gsap.from('.pricing p , .pricing span , .pricing h3, .btn-block', { y: 10, opacity: 0, stagger: 0.1, delay: 0.5 });
+                    gsap.from('.main-img', { y: 50, opacity: 0, duration: 1, delay: 1 });
+                    gsap.from('.swiper-thumbs', { y: 20, opacity: 0, delay: 0.5 });
+                },
+            }
+        });
+
+        gsap.from('.swiper-slide-active h2', { x: -200, opacity: 0, duration: 1, delay: 0.5 });
+        gsap.from('.info p , .info span', { y: 10, opacity: 0, stagger: 0.1, delay: 0.5 });
+        gsap.from('.pricing p , .pricing span , .pricing h3, .btn-block', { y: 10, opacity: 0, stagger: 0.1, delay: 0.5 });
+        gsap.from('.main-img', { y: 100, opacity: 0, duration: 1, delay: 1 });
+        gsap.from('.swiper-thumbs', { y: 20, opacity: 0, delay: 0.5 });
+
+        //  modal y los botones
+        var modal = document.getElementById("modal");
+        var openModalBtns = document.querySelectorAll(".open-modal-btn");
+        var closeBtn = document.getElementById("close-btn");
+
+        // Función para abrir el modal
+        openModalBtns.forEach(function(btn) {
+          btn.addEventListener("click", function() {
+            modal.style.display = "block";
+          });
+        });
+
+        //  para cerrar el modal al hacer clic en el botón de cierre
+        closeBtn.addEventListener("click", function() {
+          modal.style.display = "none";
+        });
+
+        // para cerrar el modal si el usuario hace clic fuera de la ventana modal
+        window.addEventListener("click", function(event) {
+          if (event.target === modal) {
+            modal.style.display = "none";
+          }
+        });
+    </script>
+</body>
+
+</html>
