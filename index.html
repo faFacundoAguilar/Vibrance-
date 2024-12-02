@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 
 <head>
@@ -62,7 +62,7 @@
         <button class="btn open-modal-btn">Añadir al carrito</button>
     </div>
     <script>
-        var swiper = new Swiper('.swiper', {
+        let swiper = new Swiper('.swiper', {
             loop: true,
             spaceBetween: 0,
             mousewheel: true,
@@ -101,9 +101,9 @@
         gsap.from('.swiper-thumbs', { y: 20, opacity: 0, delay: 0.5 });
 
         //  modal y los botones
-        var modal = document.getElementById("modal");
-        var openModalBtns = document.querySelectorAll(".open-modal-btn");
-        var closeBtn = document.getElementById("close-btn");
+        let modal = document.getElementById("modal");
+        let openModalBtns = document.querySelectorAll(".open-modal-btn");
+        let closeBtn = document.getElementById("close-btn");
 
         // Función para abrir el modal
         openModalBtns.forEach(function(btn) {
@@ -123,7 +123,7 @@
             modal.style.display = "none";
           }
         });
-    </script
+    </script>
         
 </body>
 
