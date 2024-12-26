@@ -5,7 +5,7 @@
 # Landing Page Interactiva con GSAP
 
 GreenSock Animation Platform. Con **HTML**, **CSS** y **JavaScript**  
-Todo se mueve con animaciones suaves y envolventes, optimizada para ofrecer un buen rendimiento fluido en cualquier dispositivo. <br>
+Todo se mueve con animaciones suaves y envolventes, optimizada para ofrecer un buen rendimiento en cualquier dispositivo. <br>
 
 🔗 [Visita el proyecto](https://teal-gerbil-844762.hostingersite.com/)
 
