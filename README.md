@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/54a1f681-b52e-432f-851f-2dc027af6101" width="300" height="auto" alt="Personaje 2" />
 </div>
 
-# Landing Page Interactiva con GSAP
+# Landing Page Interactiva 
 
  Con **HTML**, **CSS** y **JavaScript**  
 Todo se mueve con animaciones suaves y envolventes, optimizada para ofrecer un buen rendimiento en cualquier dispositivo. <br>
